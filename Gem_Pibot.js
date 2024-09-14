@@ -102,6 +102,8 @@ bot.command('generate', async (ctx) => {
   const result = await main(subject);
   ctx.reply(result);
 });
+
+
 bot.on('message', async (ctx) => {
     const message = ctx.message.text.trim().toLowerCase();
 
