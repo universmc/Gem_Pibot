@@ -51,7 +51,7 @@ bot.command('imagine', async (ctx) => {
     const responseFetch = await fetch(imageUrl);
     const arrayBuffer = await responseFetch.arrayBuffer(); // Utilise arrayBuffer pour récupérer les données de l'image
     const buffer = Buffer.from(arrayBuffer); // Convertit ArrayBuffer en Buffer
-    const fileName = `Puzzle_${new Date().toISOString().replace(/[:.]/g, "-")}.webp`;
+    const fileName = `Image_${new Date().toISOString().replace(/[:.]/g, "-")}.webp`;
 
     fs.writeFileSync(fileName, buffer);
 
