@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Générateur d'Images DALL-E</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Générateur d'Images avec DALL-E 3</h1>
+    <form id="imageForm">
+        <label for="promptInput">Entrez votre prompt :</label>
+        <input type="text" id="promptInput" name="prompt" required>
+        <button type="submit">Générer Image</button>
+    </form>
+    <h2>Image Générée :</h2>
+    <div id="imageResult"></div>
+    <script src="script.js"></script>
+</body>
+</html>

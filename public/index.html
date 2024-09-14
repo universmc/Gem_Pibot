@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat avec GROQ</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 600px;
+      margin: 20px auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      background-color: #f9f9f9;
+    }
+    #result {
+      margin-top: 20px;
+      padding: 10px;
+      background-color: #e0e0e0;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Chat avec GROQ</h1>
+  <label for="prompt">Entrez votre texte :</label>
+  <textarea id="prompt" rows="4" cols="50"></textarea><br>
+  <button id="submit">Envoyer</button>
+
+  <div id="result">
+    <h3>Réponse :</h3>
+    <p id="output"></p>
+  </div>
+
+  <script>
+    document.getElementById('submit').addEventListener('click', async () => {
+      const prompt = document.getElementById('prompt').value;
+      const response = await fetch(`/generate?prompt=${encodeURIComponent(prompt)}`);
+      const data = await response.json();
+
+      if (data.message) {
+        document.getElementById('output').innerText = data.message;
+      } else {
+        document.getElementById('output').innerText = 'Erreur lors de la récupération de la réponse.';
+      }
+    });
+  </script>
+</body>
+</html>

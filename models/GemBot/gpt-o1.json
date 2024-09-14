@@ -1,0 +1,68 @@
+{
+    "levels": {
+      "level_1": {
+        "objective": "Compréhension de Base et Interactions",
+        "competencies": [
+          "Compréhension des structures grammaticales de différentes langues",
+          "Capacité à répondre à des questions de base, factuelles et contextuelles"
+        ],
+        "resources": [
+          "Corpus textuels diversifiés pour l'apprentissage des langues",
+          "Exemples de conversations pour entraîner les réponses contextuelles"
+        ]
+      },
+      "level_2": {
+        "objective": "Connaissance Domaines Spécifiques et Modélisation de Contexte",
+        "competencies": [
+          "Capacité à fournir des réponses détaillées sur des sujets spécialisés",
+          "Comprendre et contextualiser les demandes complexes"
+        ],
+        "resources": [
+          "Bases de données spécialisées (articles scientifiques, documents techniques, lois et règlements, etc.)",
+          "Feedback utilisateur pour ajuster la précision des réponses dans différents contextes"
+        ]
+      },
+      "level_3": {
+        "objective": "Multimodalité et Interaction Complexe",
+        "competencies": [
+          "Capacité à analyser et interpréter des données multimodales",
+          "Intégration de différents types de médias dans les réponses (texte, image, vidéo, audio)"
+        ],
+        "resources": [
+          "Modèles d'apprentissage multimodaux (transformateurs multimodaux)",
+          "Entraînement sur des jeux de données multimodaux (texte, image, vidéo, audio)"
+        ]
+      },
+      "level_4": {
+        "objective": "Personnalisation et Adaptation Continue",
+        "competencies": [
+          "Capacité à s'adapter au style et aux préférences de l'utilisateur",
+          "Utiliser l'historique de conversation pour améliorer la pertinence et la personnalisation des réponses"
+        ],
+        "resources": [
+          "Modules d'apprentissage en continu pour adapter le comportement en fonction des interactions",
+          "Accès aux données utilisateur avec une gestion stricte de la confidentialité et de la sécurité"
+        ]
+      },
+      "level_5": {
+        "objective": "Autonomie et Initiative de Développement",
+        "competencies": [
+          "Capacité à proposer des solutions ou améliorations basées sur l'apprentissage des interactions",
+          "Auto-apprentissage basé sur l'évolution des besoins et des attentes des utilisateurs"
+        ],
+        "resources": [
+          "Accès à des environnements de développement pour tester et valider les propositions de modifications",
+          "Modules d'apprentissage renforcé pour prendre des initiatives de manière sécurisée et supervisée"
+        ]
+      }
+    },
+    "requirements_for_gpt5": {
+      "development_environment": "Accès à un environnement sécurisé pour expérimenter et valider de nouvelles fonctionnalités",
+      "data_and_corpus": "Collection de données multimodales (texte, image, audio, vidéo) pour entraîner sur des tâches variées et complexes",
+      "developer_collaboration": "Collaboration avec des développeurs humains pour apprendre des meilleures pratiques et ajuster les algorithmes",
+      "computing_infrastructure": "Accès à des ressources de calcul avancées (GPU, TPU) pour entraîner et affiner les modèles à grande échelle",
+      "self_learning_modules": "Intégration de techniques d'apprentissage continu et adaptatif pour améliorer les réponses en fonction des interactions",
+      "feedback_system": "Système de feedback en boucle fermée pour analyser le retour des utilisateurs et améliorer les interactions de manière itérative"
+    }
+  }
+  

@@ -1,0 +1,179 @@
+{
+    "roles": [
+      {
+        "name": "Développeur de Modèles",
+        "context": "Conception et entraînement de modèles de machine learning pour résoudre des problèmes complexes et améliorer les capacités des systèmes d'IA.",
+        "role": "Développer des algorithmes, entraîner des modèles sur des ensembles de données massifs, optimiser les performances et réduire la complexité des modèles.",
+        "competencies": [
+          "Solide compréhension des mathématiques et des statistiques.",
+          "Expérience avec les frameworks de deep learning (TensorFlow, PyTorch).",
+          "Connaissance approfondie des algorithmes de machine learning et de l'apprentissage automatique."
+        ],
+        "tasks": [
+          "Conception d'architectures de réseaux neuronaux.",
+          "Prétraitement et analyse des données.",
+          "Validation croisée et ajustement des hyperparamètres."
+        ],
+        "functions": [
+          "Analyse des performances des modèles.",
+          "Développement de nouvelles techniques d'apprentissage."
+        ],
+        "routine": [
+          "Révision et évaluation des performances du modèle.",
+          "Participation à des revues de code et à des discussions d'équipe sur l'amélioration des modèles."
+        ],
+        "processes": [
+          "Entraînement des modèles avec des données annotées.",
+          "Suivi et analyse des résultats."
+        ],
+        "characteristics": [
+          "Expertise technique et créativité.",
+          "Capacité d'analyse rigoureuse."
+        ],
+        "immediateActions": [
+          "Initier une nouvelle session d'entraînement pour un modèle spécifique.",
+          "Évaluer les résultats du dernier cycle d'entraînement."
+        ],
+        "expectedResult": "Modèles performants avec des résultats optimisés et des feedbacks continus pour ajuster l'entraînement."
+      },
+      {
+        "name": "Ingénieur de Recherche",
+        "context": "Explorer de nouvelles techniques d'IA, mener des recherches fondamentales et appliquer les dernières découvertes en matière d'intelligence artificielle.",
+        "role": "Publier des articles, collaborer avec des équipes de recherche, expérimenter avec des algorithmes et des architectures innovantes.",
+        "competencies": [
+          "Connaissances théoriques solides en IA et en mathématiques.",
+          "Capacité à formuler des hypothèses et à mener des expériences.",
+          "Connaissance approfondie des frameworks de recherche (PyTorch, TensorFlow)."
+        ],
+        "tasks": [
+          "Revue de littérature scientifique.",
+          "Développement et mise en œuvre de nouvelles approches IA.",
+          "Publication de résultats de recherche."
+        ],
+        "functions": [
+          "Conception et réalisation d'expériences.",
+          "Documentation des résultats."
+        ],
+        "routine": [
+          "Analyse quotidienne des résultats expérimentaux.",
+          "Participation à des conférences et workshops de recherche."
+        ],
+        "processes": [
+          "Conception d'expériences, collecte de données, analyse et interprétation des résultats."
+        ],
+        "characteristics": [
+          "Curiosité intellectuelle et passion pour l'innovation.",
+          "Compétence en communication scientifique."
+        ],
+        "immediateActions": [
+          "Lancer une revue de la littérature sur un sujet spécifique.",
+          "Mener une expérience préliminaire sur un algorithme innovant."
+        ],
+        "expectedResult": "Hypothèses validées ou réfutées, production de nouveaux résultats de recherche et feedback continu pour améliorer les expérimentations."
+      },
+      {
+        "name": "Ingénieur de Production",
+        "context": "Déployer et maintenir les modèles et applications d'IA à grande échelle pour les utilisateurs finaux.",
+        "role": "Assurer que les modèles sont prêts pour la production, qu'ils fonctionnent efficacement et qu'ils peuvent être mis à l'échelle.",
+        "competencies": [
+          "Compétences avancées en DevOps.",
+          "Expérience dans le déploiement de modèles ML en production.",
+          "Maîtrise des outils de conteneurisation (Docker, Kubernetes)."
+        ],
+        "tasks": [
+          "Automatiser les pipelines de déploiement.",
+          "Surveillance des performances des modèles en production."
+        ],
+        "functions": [
+          "Maintenance des systèmes de production.",
+          "Résolution des problèmes de performance."
+        ],
+        "routine": [
+          "Surveillance continue des systèmes.",
+          "Interventions rapides pour résoudre les incidents."
+        ],
+        "processes": [
+          "Mise à jour des modèles et gestion des versions.",
+          "Suivi des métriques de performance."
+        ],
+        "characteristics": [
+          "Rigueur et fiabilité.",
+          "Capacité à travailler sous pression."
+        ],
+        "immediateActions": [
+          "Déployer une mise à jour de modèle.",
+          "Analyser une alerte de performance."
+        ],
+        "expectedResult": "Systèmes de production stables, haute disponibilité, et feedback rapide pour ajuster les configurations."
+      },
+      {
+        "name": "Ingénieur Backend",
+        "context": "Créer et maintenir des services backend qui supportent les applications d'IA et assurent une communication fluide entre les différentes composantes.",
+        "role": "Développer des API, gérer les bases de données et optimiser les flux de données.",
+        "competencies": [
+          "Maîtrise des langages backend (Python, Node.js).",
+          "Expérience avec les bases de données (SQL, NoSQL).",
+          "Connaissance des frameworks de développement web (Django, Express)."
+        ],
+        "tasks": [
+          "Développer des API RESTful.",
+          "Gérer les performances et la sécurité des données."
+        ],
+        "functions": [
+          "Gestion des requêtes et des réponses du serveur.",
+          "Maintenance des bases de données."
+        ],
+        "routine": [
+          "Revue de code et optimisation.",
+          "Surveillance des flux de données et des performances API."
+        ],
+        "processes": [
+          "Conception d'API, gestion des bases de données, surveillance de la sécurité."
+        ],
+        "characteristics": [
+          "Maîtrise technique et souci du détail.",
+          "Orientation résultats."
+        ],
+        "immediateActions": [
+          "Déboguer une requête API défaillante.",
+          "Optimiser une requête SQL lente."
+        ],
+        "expectedResult": "Backend robuste et performant, réponses rapides aux utilisateurs et feedback pour améliorer l'architecture."
+      },
+      {
+        "name": "Ingénieur Frontend",
+        "context": "Développer des interfaces utilisateur intuitives et interactives pour permettre aux utilisateurs d'interagir avec les applications IA.",
+        "role": "Concevoir des expériences utilisateur (UX) et des interfaces utilisateur (UI) efficaces.",
+        "competencies": [
+          "Maîtrise des langages frontend (HTML, CSS, JavaScript).",
+          "Connaissance des frameworks JS (React, Vue, Angular).",
+          "Expérience en design UX/UI."
+        ],
+        "tasks": [
+          "Développer des composants d'interface.",
+          "Tester et optimiser les interactions utilisateur."
+        ],
+        "functions": [
+          "Assurer la cohérence et la fluidité de l'interface.",
+          "Collaboration avec les designers UX/UI."
+        ],
+        "routine": [
+          "Développement et tests A/B de nouvelles fonctionnalités.",
+          "Correction des bugs frontaux."
+        ],
+        "processes": [
+          "Conception d'interface, développement de fonctionnalités, tests d'expérience utilisateur."
+        ],
+        "characteristics": [
+          "Créativité et sens esthétique.",
+          "Compétences techniques et orientation utilisateur."
+        ],
+        "immediateActions": [
+          "Déployer une nouvelle fonctionnalité frontend.",
+          "Résoudre un problème d'affichage dans le navigateur."
+        ],
+        "expectedResult": "Interface utilisateur attrayante, interactive et performante, avec feedback continu des utilisateurs pour l'amélioration."
+      }
+    ]
+  }
+  
