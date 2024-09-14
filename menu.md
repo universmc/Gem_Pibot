@@ -1,5 +1,6 @@
 # openai
 start - Intro
+imagine - Generation images
 generate - Generate Howto
 run - Run NodeJs
 myprompt - MyPrompt

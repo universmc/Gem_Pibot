@@ -38,7 +38,7 @@ bot.command('imagine', async (ctx) => {
 
   // Vérifier si l'utilisateur a fourni un prompt
   if (!userInput) {
-    ctx.reply("Veuillez fournir une description pour générer l'image. Exemple: `/imagine une ville futuriste sous la pluie`");
+    ctx.reply("Veuillez fournir une description pour générer l'image. Exemple: `[ Génère une image multidimensionnelle de haute définition illustrant la beauté des meta données mettant en lumière la nature des choses. l'image doit être format 16:9 .webp]`");
     return;
   }
 
@@ -77,7 +77,7 @@ async function main(subject) {
     const completion = await groq.chat.completions.create({
       model: "gemma2-9b-it",
       messages: [
-          { role: "assistant", content: `Génération d'un guide Le rôle de développeur chez OpenAI` },
+          { role: "assistant", content: `Génération d'un guide Le rôle de développeur de Bot Net -ia` },
         { role: "user", content: `Génération d'un guide sur ${subject}` },
         { role: "system", content: `bienvenue sur Telegram` }
       ],
@@ -86,7 +86,7 @@ async function main(subject) {
     });
 
     const mdContent = completion.choices[0].message.content;
-    const outputFilePath = `HowTo_nodeJj-${subject}_` + new Date().toISOString().replace(/[-:TZ]/g, "") + ".md";
+    const outputFilePath = `HowTo-${subject}_` + new Date().toISOString().replace(/[-:TZ]/g, "") + ".md";
     fs.writeFileSync(outputFilePath, mdContent);
 
     return `Le How-To sur ${subject} a été enregistré dans ${outputFilePath}`;
@@ -97,7 +97,7 @@ async function main(subject) {
 }
 
 bot.command('generate', async (ctx) => {
-  const subject = ctx.message.text.split(' ')[1] || 'HowTo_OpenAi';
+  const subject = ctx.message.text.split(' ')[1] || 'HowTo_';
   ctx.reply(`Génération du guide pour le sujet : ${subject}...`);
   const result = await main(subject);
   ctx.reply(result);
